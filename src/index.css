@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@300;500;700;800&family=JetBrains+Mono:wght@400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Playfair Display", serif;
+
+  --color-brand-accent: #171717;
+  --color-brand-muted: #737373;
+  --color-brand-light: #FBFBFB;
+  --color-brand-surface: #FFFFFF;
+  --color-brand-gold: #AF8E51;
+  --color-brand-border: #E5E5E5;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-light text-brand-accent font-sans antialiased selection:bg-brand-accent selection:text-white;
+  }
+}
+
+.cinematic-shadow {
+  box-shadow: 0 40px 100px -20px rgba(0, 0, 0, 0.05);
+}
+
+.glass-panel {
+  @apply bg-white/70 backdrop-blur-2xl border border-brand-border;
+}
+
+.section-padding {
+  @apply py-24 md:py-40 px-6 md:px-12;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
