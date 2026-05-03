@@ -7,7 +7,7 @@ export default function Productions() {
     {
       title: "The Last Dragon of Maine",
       status: "Pre-Production",
-      image: "https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&q=80&w=1200",
+      image: "/last_dragon_poster.png.png",
       description: "A grounded fantasy drama about childhood grief, found friendship, and the quiet magic surviving in forgotten places.",
       slug: "last-dragon"
     },

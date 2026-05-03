@@ -48,7 +48,7 @@ export default function LastDragon() {
             <div className="absolute inset-0 border border-brand-gold/10 translate-x-6 translate-y-6 -z-0 group-hover:translate-x-8 group-hover:translate-y-8 transition-transform duration-500" />
             <div className="relative z-10 w-full h-full overflow-hidden border border-brand-border cinematic-shadow bg-brand-light">
               <img 
-                src="https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&q=80&w=1200" 
+                src="/last_dragon_poster.png.png" 
                 alt="The Last Dragon of Maine Poster" 
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
